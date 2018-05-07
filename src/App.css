@@ -1,0 +1,26 @@
+#root {
+  height:100%;
+}
+
+body {
+  background: #dee1e5;
+}
+
+.App {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+}
+
+.side-bar {
+  background-color: #4f5a6e;
+  flex-basis: 200px;
+  padding: 20px;
+}
+
+.content-container {
+  padding: 20px;
+  background: #fff;
+  flex-grow: 1;
+}
