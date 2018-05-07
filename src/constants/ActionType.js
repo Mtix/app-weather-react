@@ -1,2 +1,2 @@
-export const VIEW_TOWN = 'VIEW_TOWN';
-export const VIEW_TOWN_LIST = 'VIEW_TOWN_LIST';
+export const MY_TOWN_FETCH = 'MY_TOWN_FETCH';
+export const MY_TOWN_WEATHER = 'MY_TOWN_WEATHER';
