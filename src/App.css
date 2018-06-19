@@ -7,20 +7,46 @@ body {
 }
 
 .App {
-  max-width: 980px;
+  max-width:200px;
   margin: 0 auto;
-  display: flex;
-  height: 100%;
-}
-
-.side-bar {
-  background-color: #4f5a6e;
-  flex-basis: 200px;
-  padding: 20px;
-}
-
-.content-container {
-  padding: 20px;
+  padding:20px;
   background: #fff;
-  flex-grow: 1;
+  min-height: 300px;
+}
+
+.my-town div {
+  color: #5776b3;
+  text-align: center;
+  font-size: 20px;
+}
+.weather-data {
+  text-align: center;
+}
+
+.weather-data div {
+  color: #000;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.weather-data div.date-update {
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+.weather-container {
+  position: relative;
+}
+
+.weather-container.hidden:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#fff url('./assets/spin.svg');
+}
+
+.weather-container.show {
 }
